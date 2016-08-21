@@ -1,0 +1,32 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bgLayout" >
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ScanProduct"
+            android:id="@+id/labelText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_width="wrap_content" />
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:id="@+id/imageView2"
+
+
+            android:src="@mipmap/scanner"
+            android:layout_alignParentRight="true"
+            android:contentDescription="scanIcon" />
+        android:contentDescription="@string/scanIcon" />
+    </RelativeLayout>
+
+
+    </merge>

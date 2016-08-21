@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">WML2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_process">ProcessActivity</string>
+    <string name="title_activity_process__locations">Process_Locations</string>
+    <string name="title_activity_homescreen">Homescreen</string>
+
+    <!-- Home screen -->
+    <string name="GoodsReceipt">Goods receipt</string>
+    <string name="Colli">Pack colli</string>
+    <string name="Orderpick">Orderpick</string>
+    <string name="GoodsTransfer">Goods transfer</string>
+    <string name="StockCount">Stock count</string>
+    <string name="ViewLocation">View location</string>
+
+    <!-- End screen -->
+
+    <!-- Orderpicking -->
+    <!-- Main screen -->
+    <string name="ScanPickslip">Scan pickslip</string>
+    <string name="ManualInput">Manual input</string>
+
+
+    <!-- End main screen-->
+    <!-- Location screen-->
+    <string name="ScanLocation">ScanLocation</string>
+    <string name="ScanProduct">ScanProduct</string>
+    <string name="title_activity_colli">ColliActivity</string>
+    <string name="title_activity_stock_count">StockCountActivity</string>
+    <string name="title_activity_goods_receipt">GoodsReceiptActivity</string>
+    <string name="apptitle">Brickx WMS</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- End location screen-->
+
+    <!-- Product screen -->
+
+
+    <!-- End product screen-->
+
+    <!-- End orderpicking -->
+    <!-- Product info -->
+
+
+    <!-- End product info -->
+
+    <!-- Goods receipt -->
+
+
+    <!-- End goods receipt -->
+
+    <!-- Colli -->
+
+    <!-- End Colli -->
+
+    <!-- Goods transfer -->
+
+    <!-- End goods transfer -->
+
+
+</resources>

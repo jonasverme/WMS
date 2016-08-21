@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="be.marbleous.wml2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".WmsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.HomescreenActivity"
+            android:label="Brickx WMS">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.Orderpick.OrderPickActivity"
+            android:label="@string/apptitle"></activity>
+        <activity
+            android:name=".Activities.Orderpick.ProcessProductActivity"
+            android:label="@string/apptitle"></activity>
+        <activity
+            android:name=".Activities.Orderpick.ProcessLocationsActivity"
+            android:label="@string/apptitle"></activity>
+        <activity
+            android:name=".Activities.Colli.ColliActivity"
+            android:label="@string/apptitle"></activity>
+        <activity
+            android:name=".Activities.StockCount.StockCountActivity"
+            android:label="@string/apptitle"></activity>
+        <activity
+            android:name=".Activities.GoodsReceipt.GoodsReceiptActivity"
+            android:label="@string/apptitle"></activity>
+
+        <!--
+            <uses-library
+            android:name="com.datalogic.device"
+            android:required="true" />
+        -->
+        <activity
+            android:name=".Activities.Settings.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="be.marbleous.wml2.Activities.HomescreenActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGoodsReceipt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/goederen_ontvangst" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnColli"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/inpakken_coli" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOrderpick"
+        android:src="@drawable/order_pick"
+        android:onClick="btnOrderpickOnClick"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnScanInfo"
+        android:layout_alignTop="@+id/btnOrderpick"
+        android:layout_alignLeft="@+id/btnColli"
+        android:layout_alignStart="@+id/btnColli"
+        android:src="@drawable/scan_locatie_info" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGoodsTransfer"
+        android:src="@drawable/transfer"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStockCount"
+        android:src="@drawable/voorraad"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/GoodsReceipt"
+        android:id="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnGoodsReceipt"
+        android:layout_alignRight="@+id/btnGoodsReceipt"
+        android:layout_alignEnd="@+id/btnGoodsReceipt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Colli"
+        android:id="@+id/textView3"
+        android:layout_alignLeft="@+id/btnColli"
+        android:layout_alignStart="@+id/btnColli"
+        android:layout_below="@+id/btnColli"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Orderpick"
+        android:id="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnOrderpick"
+        android:layout_alignRight="@+id/btnOrderpick"
+        android:layout_alignEnd="@+id/btnOrderpick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewLocation"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/btnScanInfo"
+        android:layout_alignLeft="@+id/btnScanInfo"
+        android:layout_alignStart="@+id/btnScanInfo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/GoodsTransfer"
+        android:id="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnGoodsTransfer"
+        android:layout_alignRight="@+id/btnGoodsTransfer"
+        android:layout_alignEnd="@+id/btnGoodsTransfer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StockCount"
+        android:id="@+id/textView7"
+        android:layout_alignLeft="@+id/btnStockCount"
+        android:layout_alignStart="@+id/btnStockCount"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignRight="@+id/btnStockCount"
+        android:layout_alignEnd="@+id/btnStockCount" />
+
+</RelativeLayout>
